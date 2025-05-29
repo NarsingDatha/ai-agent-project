@@ -1,0 +1,46 @@
+{
+  "inputs": [
+    {
+      "source": "user",
+      "type": "json",
+      "intent": "RFQ",
+      "timestamp": "2025-05-29T05:18:02.747682"
+    },
+    {
+      "source": "user",
+      "type": "email",
+      "intent": "Request for Quote",
+      "timestamp": "2025-05-29T05:18:06.373986"
+    }
+  ],
+  "extracted": {
+    "JSON Agent": {
+      "output": {
+        "user_id": 1,
+        "full_name": "Alice",
+        "email_address": "alice@example.com"
+      },
+      "missing_fields": []
+    },
+    "Email Agent": {
+      "sender": "bob@example.com",
+      "subject": "Request for Quote",
+      "urgency": "Normal",
+      "thread_id": 7550546745354462338
+    },
+    "PDF Agent": {
+      "filename": "sample_file.pdf",
+      "content_preview": "DUTHA NARSING DATHA doothanarsingdatta07096@gmail.com Senior Undergraduate +91-7816047008 IIIT RGUKT-BASAR OBJECTIVE Passionate about Artificial Intelligence, Machine Learning, Deep Learning, and Data Structures Algorithms. En- thusiastic about solving real-world problems through computational techniques and innovation in the Computer Science domain. EDUCATION Degree Specialization Institute Year CPI B.Tech Computer Science IIIT RGUKT-BASAR 2022-Present 8.17 PUC Physics, Chemistry, Mathe- matics",
+      "page_count": 2,
+      "tables_extracted": []
+    }
+  },
+  "threads": {
+    "7550546745354462338": {
+      "sender": "bob@example.com",
+      "subject": "Request for Quote",
+      "urgency": "Normal",
+      "thread_id": 7550546745354462338
+    }
+  }
+}

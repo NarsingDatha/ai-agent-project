@@ -1,7 +1,15 @@
 From: bob@example.com
+To: alice@example.com
 Subject: Request for Quote
+Date: Wed, 28 May 2025 10:30:00 +0530
+Message-ID: <1234@example.com>
 
-Hello,
-Can you share the pricing?
-Thanks,
+Hi Alice,
+
+I hope you are doing well.
+
+Could you please provide a quote for the AI Agent project we discussed earlier? We need it by next week.
+
+Thanks and regards,
 Bob
+
