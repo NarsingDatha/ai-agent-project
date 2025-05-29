@@ -1,0 +1,7 @@
+From: bob@example.com
+Subject: Request for Quote
+
+Hello,
+Can you share the pricing?
+Thanks,
+Bob

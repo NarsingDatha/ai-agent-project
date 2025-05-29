@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.safetensors
+*.pdf
+*.zip
+*.tar.gz
+.DS_Store
+.env
+venv/
+.cache/
+.idea/
+*.log
